@@ -1,692 +1,669 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
-.bir{
-    margin-left: 40px;
-    padding-left: 40px;
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1350px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.iki{
-     /* margin-right: -800px; */
-    /* padding-right: -200px;
+.lang {
+  display: flex;
+  width: 20px;
+}
+
+.bir {
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+.iki {
+  /* margin-right: -800px; */
+  /* padding-right: -200px;
     display: flex; */
 }
 
-.okey{
-    display: flex;
-    gap: 10px;
-    margin-top: 3px;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-    height: 45px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 9px;
+.okey {
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.language-select{
-    background-color: white;
-    color: black;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 2px 5px;
-    margin-left: 10px;
-    flex-shrink: 0;
-    flex-grow: 0;
-    width: auto ;
-    display: flex;
-    margin-right: 15px;
+.language-select {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px 5px;
+  margin-left: 10px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: auto;
+  display: flex;
+  margin-right: 15px;
 }
 
-.okey2{
-    box-sizing: border-box;
-    color: white;
-    background-color:grey;
-    height: 70px;
-    margin: -10px;
-    width: 1523px;
-    white-space: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
+.okey2 {
+  box-sizing: border-box;
+  color: white;
+  background-color: grey;
+  height: 70px;
+  width: 100%;
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.knopka{
-    padding: 18px;
-    margin: 10px;
-    margin-left: 72px;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-    display: inline-block;
+.knopka {
+  padding: 18px;
+  margin: 10px;
+  margin-left: 72px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
 }
 
-.knopka:hover{
-    background-color: darkred;
-    display: inline-block;
+.knopka:hover {
+  background-color: darkred;
+  display: inline-block;
 }
 
-.knopka2{
-    padding: 18px;
-    margin: 10px;
-    margin-left: 72px;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-    display: inline-block;
+.knopka2 {
+  padding: 18px;
+  margin: 10px;
+  margin-left: 72px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
 }
 
-.knopka2:hover{
-    background-color: darkred;
-    display: inline-block;
+.knopka2:hover {
+  background-color: darkred;
+  display: inline-block;
 }
 
-.knopka3{
-    padding: 18px;
-    margin: 10px;
-    margin-left: 72px;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-    display: inline-block;
+.knopka3 {
+  padding: 18px;
+  margin: 10px;
+  margin-left: 72px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
 }
 
-.knopka4{
-    padding: 18px;
-    margin: 10px;
-    margin-left: 72px;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-    display: inline-block;
+.knopka4 {
+  padding: 18px;
+  margin: 10px;
+  margin-left: 72px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
 }
 
-.knopka3:hover{
-    background-color: darkred;
-    display: inline-block;
+.knopka3:hover {
+  background-color: darkred;
+  display: inline-block;
 }
 
-.knopka4:hover{
-    background-color: darkred;
-    display: inline-block;
+.knopka4:hover {
+  background-color: darkred;
+  display: inline-block;
 }
 
-.vvod{
-    margin-right: 70px;
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: antiquewhite;
+.vvod {
+  margin-right: 70px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: antiquewhite;
 }
 
-.knopka5{
-    padding: 18px;
-    margin: 10px;
-    margin-left: 72px;
-    transition: background-color 0.3s ease;
-    margin-top: 10px;
-    display: inline-block;
+.knopka5 {
+  padding: 18px;
+  margin: 10px;
+  margin-left: 72px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  display: inline-block;
 }
 
-.knopka5:hover{
-    background-color: darkred;
-    display: inline-block;
+.knopka5:hover {
+  background-color: darkred;
+  display: inline-block;
 }
 
-.okey3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.okey3 {
+  gap: 20px;
+  padding: 0px;
+  background-color: black;
+  height: 680px;
+}
+
+.blok {
+  background-color: blanchedalmond;
+  height: 550px;
+  padding: 4px;
+  text-align: end;
+  height: 450px;
+  width: 300px;
+  text-align: end;
+  border-radius: 7px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.blok img {
+  width: 100%;
+  height: 490px;
+  border-radius: 8px;
+  height: 400px;
+  border-radius: 8px;
+  padding: -11px;
+  padding: -25px;
+}
+
+.blok2 {
+  width: 200px;
+}
+
+.yaz {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.okey4 {
+  gap: 20px;
+  width: 100%;
+  height: 710px;
+  background-color: black;
+}
+
+.g-20{
     gap: 20px;
-    padding: 0px;
-    background-color: black;
-    height: 680px;
 }
 
-.blok{
-    background-color: blanchedalmond;
-    height: 550px;
-    width: 400px;
-    padding: 4px;
-    margin: 30px;
-    text-align: end;
-    margin-top: 70px;
-    border-radius: 7px;
+.boyuk-box {
+  background-color: wheat;
+  color: white;
+  text-align: end;
+  padding: 2px;
+  background-color: blanchedalmond;
+  height: 625px;
+  width: 60%;
+  text-align: end;
+  border-radius: 7px;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+.boyuk-box img {
+  width: 100%;
+  height: 540px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.blok img{
-   width: 400px;
-    height: 490px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.yaz1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 16px;
 }
 
-.blok2{
-    width: 200px;
+.kicik-boxlar {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  column-gap: 40px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 40px; */
 }
 
-.yaz{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 10px;
-    margin-left: 86px;
-    display: flex;
-    margin-bottom: 40px;
+.kicik-box {
+  background-color: blanchedalmond;
+  height: 270px;
+  width: 179px;
+  padding: 3px;
+  text-align: end;
+  border-radius: 7px;
 }
 
-.okey4{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.kicik-box img {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
-.boyuk-box{
-    background-color: wheat;
-    color: white;
-    text-align: end;
-    padding: 2px;
-    background-color: blanchedalmond;
-    height: 610px;
-    width: 690px;
-    padding: 4px;
-    margin: 30px;
-    text-align: end;
-    margin-top: 70px;
-    border-radius: 7px;
+.yaz2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
 }
 
-.okey4{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 0px;
-    background-color: black;
-    height: 710px;
-    margin-right: 10px;
-    width: 1513px;
-    margin-top: -70px;
+.yaz3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 20px;
+  display: flex;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: -5px;
 }
 
-.boyuk-box img{
-    width: 690px;
-    height: 540px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.yaz4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 35px;
+  display: flex;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: -5px;
 }
 
-.yaz1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 10px;
-    margin-left: 240px;
-    display: flex;
-    margin-bottom: 40px;
-    color: black;
+.yaz5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 30px;
+  display: flex;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: -5px;
 }
 
-.kicik-boxlar{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 1px;
+.yaz6 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 12px;
+  display: flex;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: -5px;
 }
 
-.kicik-box{
-    background-color: blanchedalmond;
-    height: 250px;
-    width: 179px;
-    padding: 3px;
-    margin: 25px;
-    text-align: end;
-    margin-top: 70px;
-    border-radius: 7px;
-}   
-
-.kicik-box img{
-    width: 180px;
-    height: 220px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: 5px;
+.okey5 {
+  display: flex;
+  gap: 10px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  height: 790px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 9px;
 }
 
-.yaz2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 50px;
-    display: flex;
-    margin-bottom: 10px;
-    color: black;
-    margin-top: -5px;
+.qutu {
+  background-color: wheat;
+  color: white;
+  text-align: end;
+  padding: 2px;
+  background-color: blanchedalmond;
+  height: 690px;
+  width: 1400px;
+  padding: 4px;
+  margin: 30px;
+  text-align: end;
+  margin-top: 70px;
+  border-radius: 7px;
 }
 
-.yaz3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 20px;
-    display: flex;
-    margin-bottom: 10px;
-    color: black;
-    margin-top: -5px;
+.qutu img {
+  width: 1400px;
+  height: 660px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.yaz4{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 35px;
-    display: flex;
-    margin-bottom: 10px;
-    color: black;
-    margin-top: -5px;
+.yaz7 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 610px;
+  display: flex;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: -8px;
 }
 
-.yaz5{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 30px;
-    display: flex;
-    margin-bottom: 10px;
-    color: black;
-    margin-top: -5px;
+.okey6 {
+  display: flex;
+  gap: 10px;
+  margin-top: -9px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  height: 700px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 9px;
 }
 
-.yaz6{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 12px;
-    display: flex;
-    margin-bottom: 10px;
-    color: black;
-    margin-top: -5px;
+.yaz8 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 610px;
+  display: flex;
+  margin-bottom: -235px;
+  color: white;
+  margin-top: -300px;
 }
 
-.okey5{
-    display: flex;
-    gap: 10px;
-    margin-top: 0px;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-    height: 790px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 9px;
+.balaca-qutular {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1px;
 }
 
-.qutu{
-    background-color: wheat;
-    color: white;
-    text-align: end;
-    padding: 2px;
-    background-color: blanchedalmond;
-    height: 690px;
-    width: 1400px;
-    padding: 4px;
-    margin: 30px;
-    text-align: end;
-    margin-top: 70px;
-    border-radius: 7px;
+.balaca-qutu {
+  background-color: blanchedalmond;
+  height: 250px;
+  width: 179px;
+  padding: 11px;
+  margin: 25px;
+  text-align: end;
+  margin-bottom: -200px;
+  margin-top: 250px;
+  border-radius: 7px;
 }
 
-.qutu img{
-    width: 1400px;
-    height: 660px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.balaca-qutu img {
+  width: 189px;
+  height: 250px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: -8px;
+  padding: -11px;
+  padding: -25px;
+  margin-left: -4px;
 }
 
-.yaz7{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 610px;
-    display: flex;
-    margin-bottom: 10px;
-    color: black;
-    margin-top: -8px;
+.yaz9 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 4px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.okey6{
-    display: flex;
-    gap: 10px;
-    margin-top: -9px;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-    height: 700px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 9px;
+.yaz10 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 18px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz8{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 610px;
-    display: flex;
-    margin-bottom: -235px;
-    color: white;
-    margin-top: -300px;
+.yaz11 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 10px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.balaca-qutular{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 1px;
+.yaz12 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 26px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.balaca-qutu{
-    background-color: blanchedalmond;
-    height: 250px;
-    width: 179px;
-    padding: 11px;
-    margin: 25px;
-    text-align: end;
-    margin-bottom: -200px;
-    margin-top: 250px;
-    border-radius: 7px;
+.yaz13 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 26px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.balaca-qutu img{
-    width: 189px;
-    height: 250px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: -8px;
-    padding: -11px;
-    padding: -25px;
-    margin-left: -4px;
+.yaz14 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 37px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz9{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 4px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz15 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 25px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz10{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 18px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz16 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 14px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz11{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 10px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz17 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 39px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz12{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 26px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz18 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 39px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz13{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 26px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz19 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 39px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz14{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 37px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz20 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 39px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz15{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 25px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.okey7 {
+  display: flex;
+  gap: 10px;
+  margin-top: -9px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  height: 530px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 9px;
 }
 
-.yaz16{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 14px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz21 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 5px;
+  margin-left: 700px;
+  display: flex;
+  margin-bottom: 60px;
+  color: white;
+  margin-top: 310px;
 }
 
-.yaz17{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 39px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.bloklar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, auto);
+  gap: 1px;
 }
 
-.yaz18{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 39px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.blok3 {
+  background-color: blanchedalmond;
+  height: 250px;
+  width: 179px;
+  padding: 11px;
+  margin: 25px;
+  text-align: end;
+  margin-bottom: 490px;
+  margin-top: 1px;
+  border-radius: 7px;
+  margin-left: 130px;
 }
 
-.yaz19{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 39px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.blok3 img {
+  width: 189px;
+  height: 250px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: -8px;
+  padding: -11px;
+  padding: -25px;
+  margin-left: -4px;
 }
 
-.yaz20{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 39px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
+.yaz23 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 50px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.okey7{
-    display: flex;
-    gap: 10px;
-    margin-top: -9px;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-    height: 530px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 9px;
+.yaz24 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 62px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.yaz21{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
-    margin-left: 700px;
-    display: flex;
-    margin-bottom: 60px;
-    color: white;
-    margin-top: 310px;
+.yaz25 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 50px;
+  margin-left: 43px;
+  display: flex;
+  margin-bottom: -180px;
+  color: black;
+  margin-top: -10px;
 }
 
-.bloklar{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, auto);
-    gap: 1px;
+.okey8 {
+  display: flex;
+  gap: 10px;
+  margin-top: -9px;
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+  color: white;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 9px;
 }
 
-.blok{
-    background-color: blanchedalmond;
-    height: 450px;
-    width: 300px;
-    padding: 11px;
-    margin: 25px;
-    text-align: end;
-    margin-bottom: 800px;
-    margin-top: 95px;
-    border-radius: 7px;
-    margin-left: 100px;
+.yaz26 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  color: black;
+  /* text-decoration: underline; */
+  border-bottom: 2px solid black;
 }
 
-.blok3{
-    background-color: blanchedalmond;
-    height: 250px;
-    width: 179px;
-    padding: 11px;
-    margin: 25px;
-    text-align: end;
-    margin-bottom: 490px;
-    margin-top: 1px;
-    border-radius: 7px;
-    margin-left: 130px;
+.yaz27 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  color: black;
 }
 
-.blok img{
-    width: 300px;
-    height: 400px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: -8px;
-    padding: -11px;
-    padding: -25px;
-    margin-left: -4px;
+.qutu3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, auto);
+  gap: 1px;
 }
 
-.blok3 img{
-    width: 189px;
-    height: 250px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-top: -8px;
-    padding: -11px;
-    padding: -25px;
-    margin-left: -4px;
-}
-
-.yaz23{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 50px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
-}
-
-.yaz24{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 62px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
-}
-
-.yaz25{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 50px;
-    margin-left: 43px;
-    display: flex;
-    margin-bottom: -180px;
-    color: black;
-    margin-top: -10px;
-}
-
-.okey8{
-    display: flex;
-    gap: 10px;
-    margin-top: -9px;
-    box-sizing: border-box;
-    background-color: blanchedalmond;
-    color: white;
-    height: 300px;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 9px;
-}
-
-.yaz26{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    color: black;
-    /* text-decoration: underline; */
-    border-bottom: 2px solid black;
-}
-
-.yaz27{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    color: black;
-}
-
-.qutu3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, auto);
-    gap: 1px;
-}
-
-.novbetibalaqutu{
-    background-color: gainsboro;
-    height: 100px;
-    width: 400px;
-    padding: 11px;
-    margin: 260px;
-    text-align: end;
-    margin-bottom: 10px;
-    margin-top: 1px;
-    border-radius: 7px;
-    margin-left: 70px;
-    gap: -100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.novbetibalaqutu {
+  background-color: gainsboro;
+  height: 100px;
+  width: 400px;
+  padding: 11px;
+  margin: 260px;
+  text-align: end;
+  margin-bottom: 10px;
+  margin-top: 1px;
+  border-radius: 7px;
+  margin-left: 70px;
+  gap: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
