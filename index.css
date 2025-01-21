@@ -9,9 +9,9 @@
 }
 
 .iki{
-    margin-right: -800px;
-    padding-right: -200px;
-    display: flex;
+     /* margin-right: -800px; */
+    /* padding-right: -200px;
+    display: flex; */
 }
 
 .okey{
@@ -54,6 +54,10 @@
     align-items: center;
     position: sticky;
     top: 0;
+}
+
+.flex{
+    display: flex;
 }
 
 .knopka{
@@ -174,7 +178,7 @@ a{
 .yaz{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
-    margin-left: 130px;
+    margin-left: 86px;
     display: flex;
     margin-bottom: 40px;
 }
@@ -533,7 +537,7 @@ a{
     box-sizing: border-box;
     background-color: black;
     color: white;
-    height: 760px;
+    height: 530px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -545,7 +549,7 @@ a{
     margin: 5px;
     margin-left: 700px;
     display: flex;
-    margin-bottom: 490px;
+    margin-bottom: 60px;
     color: white;
     margin-top: 310px;
 }
@@ -558,5 +562,131 @@ a{
 }
 
 .blok{
-    
+    background-color: blanchedalmond;
+    height: 450px;
+    width: 300px;
+    padding: 11px;
+    margin: 25px;
+    text-align: end;
+    margin-bottom: 800px;
+    margin-top: 95px;
+    border-radius: 7px;
+    margin-left: 100px;
+}
+
+.blok3{
+    background-color: blanchedalmond;
+    height: 250px;
+    width: 179px;
+    padding: 11px;
+    margin: 25px;
+    text-align: end;
+    margin-bottom: 490px;
+    margin-top: 1px;
+    border-radius: 7px;
+    margin-left: 130px;
+}
+
+.blok img{
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    padding: -11px;
+    padding: -25px;
+    margin-left: -4px;
+}
+
+.blok3 img{
+    width: 189px;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    padding: -11px;
+    padding: -25px;
+    margin-left: -4px;
+}
+
+.yaz23{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    margin-left: 50px;
+    display: flex;
+    margin-bottom: -180px;
+    color: black;
+    margin-top: -10px;
+}
+
+.yaz24{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    margin-left: 62px;
+    display: flex;
+    margin-bottom: -180px;
+    color: black;
+    margin-top: -10px;
+}
+
+.yaz25{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    margin-left: 43px;
+    display: flex;
+    margin-bottom: -180px;
+    color: black;
+    margin-top: -10px;
+}
+
+.okey8{
+    display: flex;
+    gap: 10px;
+    margin-top: -9px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    color: white;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+.yaz26{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    color: black;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+}
+
+.yaz27{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    color: black;
+}
+
+.qutu3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+    gap: 1px;
+}
+
+.novbetibalaqutu{
+    background-color: gainsboro;
+    height: 100px;
+    width: 400px;
+    padding: 11px;
+    margin: 260px;
+    text-align: end;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    border-radius: 7px;
+    margin-left: 70px;
+    gap: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
