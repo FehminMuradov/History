@@ -476,6 +476,10 @@ a {
   border-bottom: 2px solid black;
 }
 
+.justify-content-between{
+  justify-content: space-between;
+}
+
 .yaz27 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
